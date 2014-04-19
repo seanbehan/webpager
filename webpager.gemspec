@@ -8,6 +8,6 @@ Gem::Specification.new do |spec|
   spec.license       = "MIT"
   spec.files         = "webpager.rb"
   spec.require_path  = "."
-  
-  spec.add_dependency "nokogiri"
+
+  spec.add_dependency "nokogiri", "~> 1.6"
 end
